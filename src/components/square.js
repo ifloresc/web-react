@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './square.css';
 
-class Square extends React.Component {
+class Square extends Component {
   render() {
     return (
       <button className="square">
@@ -9,3 +10,5 @@ class Square extends React.Component {
     );
   }
 }
+
+export default Square;
