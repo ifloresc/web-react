@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 import './index.css';
 
-import Game from './components/game';
+import App from './view/App';
 
 ReactDOM.render(
-  <Game />,
+  <App />,
   document.getElementById('root')
 );
